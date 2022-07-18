@@ -8,8 +8,8 @@ import { faArrowDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function About() {
     return (
-        <div className='about'>
-            <Row className='justify-content-between p-2 mt-lg-3'>
+        <div className='container'>
+            <Row className='about justify-content-between p-2 mt-lg-3'>
                 <Col md={4} className='text-center p-2'>
 
                     {/* Image */}
@@ -28,10 +28,10 @@ function About() {
 
                         {/* Resume */}
                        
-                        <div className='d-flex justify-content-center'>
+                        <div className='download d-flex justify-content-center'>
                             <div className='mx-1'>
                                 <Fade bottom delay={800}>
-                                    <Button className="download" id="resume" href="" variant="custom" size="sm" >
+                                    <Button href="" variant="custom" size="sm" >
                                         <FontAwesomeIcon icon={faArrowDown} size="xl" style={{ marginRight: "10px" }} /> Resume Download
                                     </Button>
                                 </Fade>
@@ -54,7 +54,7 @@ function About() {
                         <Fade bottom delay={800}>
                             <p className='mb-2 text'>
                                 I have a Certificate in Fullstack Web and Mobile Development from <span className='text-primary'>
-                                    Nucamp Coding Bootcamp</span>, a Frontend Web Developer Certificate from <span className='text-primary'>George Washington University</span>,
+                                    Nucamp Coding Bootcamp</span>, a Frontend Web Developer Certificate from<span className='text-primary'>George Washington University</span>,
                                 a Cloud Practitioner Certificate <span className='text-primary'>AWS</span> and a BA in Music <span className='text-primary'>Cardiff University, UK</span>.
                             </p>
                         </Fade>
@@ -65,7 +65,7 @@ function About() {
                         </Fade>
                         <Fade bottom delay={800}>
                             <NavLink tag='link' className='nav-link touch-link mx-0 p-0' to='/contact'>
-                                <u><em><h3>Contact me!</h3></em></u>
+                                <h3>Contact me!</h3>
                             </NavLink>
                         </Fade>
                     </div>

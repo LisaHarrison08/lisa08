@@ -11,9 +11,6 @@ body {
 	line-height: 1.5;
 	margin: 0;
 	padding: 0;
-
-	padding-right: 0px !important;
-	position: relative !important;
 }
 /* HOME PAGE */
 .intro-text {
@@ -77,6 +74,10 @@ body {
 	letter-spacing: 2px;
 }
 
+.text-primary span{
+    color:#e83283;
+}
+
 .profile-pic {
 	width: 85%;
 	height: auto;
@@ -84,15 +85,10 @@ body {
 	margin-left: 20px;
 }
 
-.about .btn-custom {
-	width: 300px;
+.download .btn-custom {
+	width: 240px;
 	margin-top: 20px;
 	background-color: aqua;
-}
-
-.about .contact-details {
-	text-align: left;
-	padding-left: 30px;
 }
 
 /* font-awesome icon */
@@ -111,22 +107,3 @@ body {
 	background: #192a51;
 }
 
-/* Footer Section */
-
-.site-footer {
-	/* background-color: rgb(233, 223, 223); */
-	background-color: black;
-	margin: 0;
-	padding-bottom: 20px;
-	padding-top: 20px;
-}
-
-.icon-link {
-	padding: 40px;
-	padding-bottom: 20px;
-	color: white;
-}
-
-.icon-link:hover {
-	color: #2bac96;
-}
