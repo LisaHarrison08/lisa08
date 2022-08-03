@@ -10,26 +10,26 @@ body {
 	color: #e83283;
 	line-height: 1.5;
 	margin: 0;
-	padding: 0;
+	padding: 0;                                                                                   
 }
 /* HOME PAGE */
 .intro-text {
 	text-transform: none; /* No capitalization, the text renders as it is (default) */
-	font-size: 4.5em;
+	font-size: 6.5em;
 	font-family: 'Kaushan Script', cursive;
 	margin-bottom: 0.25em;
-	letter-spacing: 0.2em;
+	letter-spacing: 0.1em;
 	color: #e83283;
 }
 .sub-text {
 	text-transform: none; /* No capitalization, the text renders as it is (default) */
-	font-size: 3.5em;
+	font-size: 5.5em;
 	color: #a08ed1;
 	margin-bottom: 0.25em;
 	font-weight: 800;
 }
 .text {
-	font-size: 1.1em;
+	font-size: 2em;
 	color: #a08ed1;
 }
 
@@ -60,8 +60,8 @@ body {
 }
 
 .about h2 {
-	font: 24px/30px 'opensans-bold', sans-serif;
-	color: #fff;
+	font: 24px/30px 'Kaushan Script', cursive;
+	color:  #5ecbd7;
 	padding-top: 40px;
 	margin-bottom: 12px;
 	letter-spacing: 2px;
@@ -70,18 +70,14 @@ body {
 .about p {
 	font-size: 18px;
 	line-height: 30px;
-	color: rgb(228, 225, 225);
+	color: #a7bdf1;
 	letter-spacing: 2px;
-}
-
-.text-primary span{
-    color:#e83283;
 }
 
 .profile-pic {
 	width: 85%;
 	height: auto;
-	margin-top: 60px;
+	margin-top: 30%;
 	margin-left: 20px;
 }
 

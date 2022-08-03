@@ -14,7 +14,7 @@ export const Intro = () => {
                     </Fade>
                     <Fade left duration={2000} distance="300px">
                         <p className='mt-0 text'>
-                        I love to get creative and build simple, beautiful and intuitive designs.<br/>
+                        I love to get creative and build beautiful, responsive and intuitive designs.<br/>
                         </p>
                     </Fade>
                 </div>
