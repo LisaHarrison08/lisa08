@@ -6,7 +6,7 @@ function ProjectCard(props) {
     return (
         <Container id="portfolio">
 
-            <Fade left duration={1000} distance="50px">
+            <Fade left duration={1000} distance="100px">
                 <Row>
                     <Col>
                         <Card className="card--image">

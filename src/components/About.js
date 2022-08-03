@@ -32,7 +32,7 @@ function About() {
                         <div className='download d-flex justify-content-center'>
                             <div className='mx-1'>
                                 <Fade bottom delay={800}>
-                                    <Button href="" variant="custom" size="sm" >
+                                    <Button href="https://drive.google.com/file/d/1oreeNGSOJgHf4kkl5-Ry4AJ4mYo8ebDC/view?usp=sharing" variant="custom" size="sm" >
                                         <FontAwesomeIcon icon={faArrowDown} size="xl" style={{ marginRight: "10px" }} /> Resume Download
                                     </Button>
                                 </Fade>
@@ -50,7 +50,7 @@ function About() {
                         <br></br>
                         <Fade bottom delay={700}>
                             <p className='mb-2 text'>
-                            Welcome to my site! I’m a junior full-stack developer residing within the Northern Virginia Area currently seeking a position as an entry level developer or an internship/apprenticeship opportunity. In addition, I am always looking to develop my skills and experience and would love to connect with more people and collaborate on projects so feel free to connect with me!
+                            Welcome to my site! I’m a junior full-stack developer residing within the Northern Virginia Area currently seeking a position as an entry level developer or an internship/apprenticeship opportunity. In addition, I am always looking to develop my skills and experience and would love to connect with more people and collaborate on projects so feel free to contact me!
                             </p>
                         </Fade>
                         <br></br>

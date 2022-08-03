@@ -8,10 +8,11 @@ export default [
     },
     {
         id: 2,
-        title: "Peak Hikes",
-        description: "Modern & responsive adventure travel booking website.",
-        image: "peak-hikes.jpg",
+        title: "Beanz",
+        description: "A clean and simple design built with React. Coffee shop website aptly named Beanz",
+        image: "beanz.png",
         url: ""
+
     },
     {
         id: 3,
@@ -36,12 +37,11 @@ export default [
         url: "https://covid-us.herokuapp.com/index.html"
 
     },
-    {
-        id: 6,
-        title: "Beanz",
-        description: "A clean and simple design built with React. Coffee shop website aptly named Beanz",
-        image: "beanz.png",
-        url: ""
-
-    } 
+      // {
+    //     id: 2,
+    //     title: "Peak Hikes",
+    //     description: "Modern & responsive adventure travel booking website.",
+    //     image: "peak-hikes.jpg",
+    //     url: ""
+    // },
 ]
