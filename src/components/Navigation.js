@@ -61,6 +61,7 @@ export const Header = () => {
                             to='/contact'
                             firstLetter='C'
                             linkEnd='ontact'
+                            href='mailto:lmharrison0810@gmail.com'
                         />
                     </Fade>
                 </Nav>

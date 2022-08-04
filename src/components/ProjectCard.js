@@ -14,7 +14,7 @@ function ProjectCard(props) {
                             <Card.Body>
                                 <Card.Title>{props.project.title}</Card.Title>
                                 <Card.Text>{props.project.description}</Card.Text>
-                                <Button className="project--button" href={props.project.url} variant="primary">View Live &rarr;</Button>
+                                <Button className="project--button" href={props.project.url} variant="primary">View &rarr;</Button>
                             </Card.Body>
                         </Card>
                     </Col>
