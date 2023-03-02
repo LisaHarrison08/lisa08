@@ -10,7 +10,7 @@ export const Intro = () => {
                         <h2 className='intro-text'>Lisa Harrison</h2>
                     </Fade>
                     <Fade right duration={2000} distance="300px">
-                        <h2 className='mt-0 sub-text '>Junior Software Developer</h2>
+                        <h2 className='mt-0 sub-text '>Portfolio</h2>
                     </Fade>
                     <Fade left duration={2000} distance="300px">
                         <p className='mt-0 text'>
